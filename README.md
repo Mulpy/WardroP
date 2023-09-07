@@ -3,7 +3,12 @@ Project description goes here
 
 This app was created as part of a student exercise for the Le Wagon Tokyo Web Development Bootcamp. The project was an AirBnB clone to design a website that specialized in clothes rentals.  Apparel owners can view and approve/reject rental requests.  Rentees can mark whether the rented item was successfully delivered. 
 
-_DROP SCREENSHOT HERE_
+![Wardrop home page](https://github.com/Mulpy/WardroP/assets/134996929/1599e1a7-c84f-440d-9ccb-be50b7baf9c8)
+![Wardrop home page](https://github.com/Mulpy/WardroP/assets/134996929/6868622b-f105-4650-8530-729546551d9e)
+![Wardrop user page to track rentals](https://github.com/Mulpy/WardroP/assets/134996929/7a605381-90b5-4479-b6f8-c115c29c052d)
+
+
+
 <br>
 App home: https://wardrop-f993abaafe8e.herokuapp.com
    
