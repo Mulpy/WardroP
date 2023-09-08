@@ -5,6 +5,8 @@ This app was created as part of a student exercise for the Le Wagon Tokyo Web De
 
 ![Wardrop home page](https://github.com/Mulpy/WardroP/assets/134996929/1599e1a7-c84f-440d-9ccb-be50b7baf9c8)
 ![Wardrop home page](https://github.com/Mulpy/WardroP/assets/134996929/6868622b-f105-4650-8530-729546551d9e)
+![Wardrop rental listing page](https://github.com/Mulpy/WardroP/assets/134996929/b94abd08-dc87-40bb-9a06-8479fd6b66f2)
+
 ![Wardrop user page to track rentals](https://github.com/Mulpy/WardroP/assets/134996929/7a605381-90b5-4479-b6f8-c115c29c052d)
 
 
