@@ -11,3 +11,14 @@
   font-weight: bold;
   font-size: 100px;
 }
+
+@media screen and (max-width: 390px) {
+  .carousel-img p {
+    font-size: 40px;
+  }
+
+  .carousel-img {
+    height: 200px;
+    max-width: 340px;
+  }
+}
