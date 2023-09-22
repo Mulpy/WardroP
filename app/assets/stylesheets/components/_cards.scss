@@ -240,9 +240,28 @@ body {
   transition: transform 0.6s ease;
 }
 
-;
-
 .like-button:hover {
   transform: scale(1.4);
   color: red
+}
+
+.cards {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 390px) {
+  .card {
+    width: 330px;
+    height: 150px;
+  }
+
+  .card-btns {
+    margin-top: 1rem;
+  }
+
+  .btn-cart:hover,
+  .btn-rent:hover {
+    background: var(--option5);
+  }
 }

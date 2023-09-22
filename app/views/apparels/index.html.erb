@@ -51,10 +51,10 @@
   </div>
 </div>
 <div class="container mb-5">
-  <h1 class="text-center mt-3 lg-title"> NEW ITEMS </h1>
+  <h1 class="text-center mt-3 lg-title sesh-divider"> NEW ITEMS </h1>
   <%# All List Items %>
-  <div class="cards">
-    <div class="container mb-5">
+  <div class="container mb-5">
+    <div class="cards">
       <div class="row">
         <% @apparels.shuffle.take(8).each do |apparel| %>
           <div class="col-md-3">
@@ -94,11 +94,11 @@
           </div>
         <% end %>
         <%= render "carousel"%>
-        <h1 class="text-center mt-3 lg-title"> OUR RECOMMENDATIONS </h1>
+        <h1 class="text-center mt-3 lg-title sesh-divider"> OUR RECOMMENDATIONS </h1>
         <%# All List Items %>
-        <div class="cards">
-          <div class="container mb-5">
-            <div class="row mb-5">
+        <div class="container mb-5">
+          <div class="cards">
+            <div class="row">
               <% @apparels.shuffle.take(8).each do |apparel| %>
                 <div class="col-md-3">
                   <div class="card">
@@ -108,16 +108,19 @@
                     <div class="card-btns">
                       <button type="button" class="btn-cart text-black"> add to cart +
                       </button>
-                      <button type="button" class="btn-rent"><%= link_to "rent now 🛒", apparel_path(apparel), class: 'text-decoration-none text-black' %></button>
+                      <button type="button" class="btn-rent">
+                        <%= link_to "rent now 🛒", apparel_path(apparel), class: 'p-3 text-decoration-none text-black' %></button>
                     </div>
                     <div class="card-info">
-                      <h2 class="sm-title"><%= apparel.category %></h2>
-                      <div class="rating my-3">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="far fa-star"></i></span>
+                      <div class="card-subinfo">
+                        <h2 class="sm-title"><%= apparel.category %></h2>
+                        <div class="rating mb-2">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
                       </div>
                       <p class="card-name"><%= apparel.name %></p>
                       <p class="card-price"><strong>Rent from: </strong>$<%=  sprintf('%.2f', (apparel.price * 0.9)) %></p>
