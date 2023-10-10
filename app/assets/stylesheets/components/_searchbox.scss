@@ -17,7 +17,7 @@
   background-color: white;
   margin-bottom: 300px;
   margin-left: 80px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .search-bar:hover {
@@ -114,4 +114,14 @@
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+@media screen and (max-width: 390px) {
+
+  .search-bar,
+  .search-bar:hover {
+    width: 80%;
+    margin-bottom: 100px;
+    margin-left: 40px;
+  }
 }

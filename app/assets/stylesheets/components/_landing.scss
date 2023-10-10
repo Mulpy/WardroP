@@ -56,3 +56,32 @@
   font-family: 'Roboto', sans-serif;
   margin-bottom: 0px;
 }
+
+@media screen and (max-width: 390px) {
+  .landing {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1000px;
+  }
+
+  .un {
+    display: none;
+  }
+
+  #typed-text {
+    height: 250px;
+  }
+
+  #typed-text h1 {
+    display: none;
+  }
+
+  #typed-text {
+    margin-top: 30px;
+  }
+
+  .sesh-divider {
+    font-size: 150%;
+  }
+}
